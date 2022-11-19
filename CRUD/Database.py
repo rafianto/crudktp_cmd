@@ -3,9 +3,10 @@ from . import Operasi
 DB_NAME = "data.txt"
 
 TEMPLATE = {
-    "pk" : "XXXXXX",
-    "nik" : "XXXXXXXXXXXXXXXX",
-    "nama" : 255*" "
+    "pk":"XXXXXX",
+    "nik":"XXXXXXXXXXXXXXXX",
+    "nama":255*" ",
+    "alamat":255*" "
 }
 
 def init_console():
