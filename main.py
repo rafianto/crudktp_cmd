@@ -1,7 +1,6 @@
 import os
 import CRUD as CRUD
 
-
 if __name__ == "__main__":
     sistem_operasi = os.name
 
@@ -31,7 +30,7 @@ if __name__ == "__main__":
         print("---------------------------------------")
         
         match user_option:
-            case "1": print("Read Data")
+            case "1": CRUD.read_console()
             case "2": print("Create Data")
             case "3": print("Update Data")
             case "4": print("Delete Data")
